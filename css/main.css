@@ -1,0 +1,41 @@
+body {
+  background: url("../img/stardust.png") repeat;
+  text-align: center;
+}
+h1,
+a {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-shadow: 0px 1px 5px #333;
+  transition: color 250ms;
+  display: block;
+}
+a:hover {
+  color: #f39c12;
+}
+#animation-wrapper {
+  background: #333;
+  width: 510px;
+  height: 310px;
+  margin: 2em auto;
+}
+#animation-div {
+  background: #f39c12;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  color: #fff;
+  font-size: 36px;
+  position: relative;
+  top: 5px;
+  margin: auto;
+  display: none;
+}
