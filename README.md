@@ -2,6 +2,9 @@
 
 OnClick in / out animations using [animate.css]
 
+## [DEMO PAGE]
+
+
 
 ### USAGE:
 
@@ -88,3 +91,4 @@ You can use any of the animations from [animate.css]
   
   
 [animate.css]:https://daneden.github.io/animate.css/
+[DEMO PAGE]:http://justpepper.github.io/In-Out-Animation-function/
