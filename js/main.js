@@ -1,4 +1,4 @@
-$.fn.animar = function( animation1, animation2 ) {
+$.fn.animateInOut = function( animation1, animation2 ) {
 	var animationIn = animation1;
 	var animationOut = animation2;
 	if ($(this).hasClass('clicked')) {
@@ -16,5 +16,5 @@ $.fn.animar = function( animation1, animation2 ) {
 
 $('#animate').click(function() {
 	event.preventDefault();
-	$('#animation-div').animar('bounceInDown', 'bounceOutUp');
+	$('#animation-div').animateInOut('bounceInDown', 'bounceOutUp');
 });
